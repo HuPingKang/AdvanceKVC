@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2EBA0008208F0F0600FED0B4 /* AdvanceKVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA0007208F0F0600FED0B4 /* AdvanceKVCTests.m */; };
 		2EBA0013208F0F0600FED0B4 /* AdvanceKVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA0012208F0F0600FED0B4 /* AdvanceKVCUITests.m */; };
+		2EBA0022208F0F1F00FED0B4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA0021208F0F1F00FED0B4 /* Person.m */; };
 		2EBAFFF0208F0F0500FED0B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAFFEF208F0F0500FED0B4 /* AppDelegate.m */; };
 		2EBAFFF3208F0F0500FED0B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAFFF2208F0F0500FED0B4 /* ViewController.m */; };
 		2EBAFFF6208F0F0500FED0B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBAFFF4208F0F0500FED0B4 /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 		2EBA000E208F0F0600FED0B4 /* AdvanceKVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceKVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBA0012208F0F0600FED0B4 /* AdvanceKVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceKVCUITests.m; sourceTree = "<group>"; };
 		2EBA0014208F0F0600FED0B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBA0020208F0F1F00FED0B4 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2EBA0021208F0F1F00FED0B4 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		2EBAFFEB208F0F0500FED0B4 /* AdvanceKVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceKVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBAFFEE208F0F0500FED0B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EBAFFEF208F0F0500FED0B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				2EBAFFEF208F0F0500FED0B4 /* AppDelegate.m */,
 				2EBAFFF1208F0F0500FED0B4 /* ViewController.h */,
 				2EBAFFF2208F0F0500FED0B4 /* ViewController.m */,
+				2EBA0020208F0F1F00FED0B4 /* Person.h */,
+				2EBA0021208F0F1F00FED0B4 /* Person.m */,
 				2EBAFFF4208F0F0500FED0B4 /* Main.storyboard */,
 				2EBAFFF7208F0F0600FED0B4 /* Assets.xcassets */,
 				2EBAFFF9208F0F0600FED0B4 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				2EBAFFF3208F0F0500FED0B4 /* ViewController.m in Sources */,
 				2EBAFFFE208F0F0600FED0B4 /* main.m in Sources */,
+				2EBA0022208F0F1F00FED0B4 /* Person.m in Sources */,
 				2EBAFFF0208F0F0500FED0B4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
